@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --purple: hsl(259, 100%, 65%);
+  --light-red: hsl(0, 100%, 67%);
+  --white: hsl(0, 0%, 100%);
+  --off-white: hsl(0, 0%, 94%);
+  --light-grey: hsl(0, 0%, 86%);
+  --smokey-grey: hsl(0, 1%, 44%);
+  --off-black: hsl(0, 0%, 8%);
+}
+
+p,
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: var(--off-white);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: clamp(350px, 90%, 650px);
+  font-size: 1rem;
+  padding: 3.5rem 6vmin;
+  background-color: #fff;
+  border-radius: 5% 5% 30% 5%;
+  box-shadow: 0 5px 15px #0000002f;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5em;
+  width: 80%;
+  font-size: 0.8rem;
+}
+
+.topbar .input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
+}
+
+.topbar .input input {
+  width: 100%;
+  font-size: 2em;
+  font-weight: 700;
+  border: 1px solid var(--light-grey);
+  padding: 1rem;
+  border-radius: 0.3em;
+  color: var(--off-black);
+  transition: 0.2s;
+  outline: none;
+}
+
+.topbar .input input:focus {
+  border-color: var(--purple);
+}
+
+.topbar .input.error p {
+  color: var(--light-red);
+}
+
+.topbar .input.error input {
+  border-color: var(--light-red);
+}
+
+.topbar .input p {
+  text-transform: uppercase;
+  color: var(--smokey-grey);
+  font-size: 0.9em;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+}
+
+.mid {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mid .line {
+  width: 100%;
+  height: 1px;
+  background-color: var(--light-grey);
+}
+
+.mid .btn {
+  width: 70px;
+}
+
+.mid .btn img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.reporters {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.reporters p {
+  color: var(--off-black);
+  font-size: 4.3em;
+  line-height: 1.1em;
+
+  font-weight: 800;
+  font-style: italic;
+}
+
+.reporters p span {
+  color: var(--purple);
+  margin-right: 0.3rem;
+}
+
+@media screen and (max-width: 600px) {
+  .topbar {
+    width: 100%;
+  }
+
+
+  .mid {
+    margin: 4em 0;
+  }
+
+  .mid .btn {
+    position: absolute;
+  }
+
+
+  .reporters p {
+    font-size: 3.8em;
+  }
+}
