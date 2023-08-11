@@ -38,8 +38,7 @@ body {
   padding: 3.5rem 6vmin;
   background-color: #fff;
   border-radius: 5% 5% 30% 5%;
-  box-shadow: 0 5px 15px #0000002f;
-}
+ }
 
 .topbar {
   display: flex;
