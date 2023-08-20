@@ -1,10 +1,10 @@
-![preview](design/desktop-preview.jpg)
+# Frontend Mentor - Age calculator app solution 🚀
 
-# Frontend Mentor - (Age calculator app) solution 🚀
+![preview](design/desktop-preview.jpg)
 
 ## Welcome 👋
 
-This is a solution to the [(Age calculator app) challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q/hub). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Age calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q/hub). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents 📑
 
@@ -46,17 +46,9 @@ _My solution (Desktop):_
 
 ![image of desktop solution](image.png)
 
-_Design_
-
-![image of desktop design](./design/desktop-completed.jpg)
-
 _My solution (Mobile)_
 
 ![image of mobile solution](image-1.png)
-
-_Design:_
-
-![image of mobile design](./design/mobile-design.jpg)
 
 ### Links 🔗
 
@@ -69,15 +61,20 @@ _Design:_
 - HTML & CSS
 - JavaScript(_In the future_)
 
+(By the way, I use the weird, blank purple svg for button, cos' the one provided was not working for me at the time)
+
 ### What I learned 🧠
 
-Absolutely nothing! *yet...*
+Absolutely nothing! _yet..._
 
-Indeed, when I finally implement some functionality using js, i will try to post here everything I learned from such experience, but for now, enjoy *blank page*
+Indeed, when I finally implement some functionality using js, i will try to post here everything I learned from such experience, but for now, enjoy
+
+_blank page_
 
 ### Continued development 🚀
 
-As mentioned previously, I plan to implement *actual* functionality in this site, but for now, it's completely static
+As mentioned previously, I plan to implement _actual_ functionality in this site, but for now, it's completely static
+
 ## Contact 📧
 
 - Frontend Mentor - [@BeanyTheCoder](https://www.frontendmentor.io/profile/BeanyTheCoder)

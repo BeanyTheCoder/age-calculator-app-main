@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+
 }
 
 :root {
@@ -12,11 +14,6 @@
   --light-grey: hsl(0, 0%, 86%);
   --smokey-grey: hsl(0, 1%, 44%);
   --off-black: hsl(0, 0%, 8%);
-}
-
-p,
-h1 {
-  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -41,7 +38,7 @@ body {
   box-shadow: 0 5px 15px #0000002f;
 }
 
-.topbar {
+.container__topbar {
   display: flex;
   justify-content: space-between;
   gap: 1.5em;
@@ -49,13 +46,13 @@ body {
   font-size: 0.8rem;
 }
 
-.topbar .input {
+.container__topbar__input {
   display: flex;
   flex-direction: column;
   gap: 0.7em;
 }
 
-.topbar .input input {
+.container__topbar__input input {
   width: 100%;
   font-size: 2em;
   font-weight: 700;
@@ -67,19 +64,20 @@ body {
   outline: none;
 }
 
-.topbar .input input:focus {
+.container__topbar__input input:hover,
+.container__topbar__input input:focus {
   border-color: var(--purple);
 }
 
-.topbar .input.error p {
+.container__topbar .input.error p {
   color: var(--light-red);
 }
 
-.topbar .input.error input {
+.container__topbar .input.error input {
   border-color: var(--light-red);
 }
 
-.topbar .input p {
+.container__topbar__input p {
   text-transform: uppercase;
   color: var(--smokey-grey);
   font-size: 0.9em;
@@ -87,36 +85,36 @@ body {
   letter-spacing: 0.3em;
 }
 
-.mid {
+.container__divider {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.mid .line {
+.container__divider__line {
   width: 100%;
   height: 1px;
   background-color: var(--light-grey);
 }
 
-.mid .btn {
+.container__divider__btn {
   width: 70px;
 }
 
-.mid .btn img {
+.container__divider__btn img {
   width: 100%;
   cursor: pointer;
 }
 
-.reporters {
+.container__reporters {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   width: 100%;
 }
 
-.reporters p {
+.container__reporters p {
   color: var(--off-black);
   font-size: 4.3em;
   line-height: 1.1em;
@@ -125,27 +123,27 @@ body {
   font-style: italic;
 }
 
-.reporters p span {
+.container__reporters p span {
   color: var(--purple);
   margin-right: 0.3rem;
 }
 
 @media screen and (max-width: 600px) {
-  .topbar {
+  .container__topbar {
     width: 100%;
   }
 
 
-  .mid {
+  .container__divider {
     margin: 4em 0;
   }
 
-  .mid .btn {
+  .container__divider__btn {
     position: absolute;
   }
 
 
-  .reporters p {
+  .container__reporters p {
     font-size: 3.8em;
   }
 }

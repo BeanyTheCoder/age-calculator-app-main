@@ -3,75 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
 
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./assets/images/favicon-32x32.png"
-    />
+      href="./assets/images/favicon-32x32.png" />
 
     <title>Frontend Mentor | Age calculator app</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <div class="container">
-      <form class="topbar">
-        <div class="input">
+      <form class="container__topbar">
+        <div class="container__topbar__input">
           <p>Day</p>
-          <input type="text" placeholder="DD" value="03" id="dayInput"/>
+          <input type="text" placeholder="DD" value="03" id="dateInput" />
         </div>
 
-        <div class="input">
+        <div class="container__topbar__input">
           <p>Month</p>
-          <input type="text" placeholder="MM" value="10" id="monthInput"/>
+          <input type="text" placeholder="MM" value="10" id="monthInput" />
         </div>
-
-        <div class="input">
+        <div class="container__topbar__input">
           <p>Year</p>
-          <input type="text" placeholder="YYYY" value="2009" id="yearInput"/>
+          <input type="text" placeholder="YYYY" value="2009" id="yearInput" />
         </div>
-
       </form>
 
-      <div class="mid">
-        <div class="line"></div>
-        <div class="btn" id="submitBtn">
+      <div class="container__divider">
+        <div class="container__divider__line"></div>
+        <button class="container__divider__btn" id="submitBtn">
           <img src="assets/images/img.svg" alt="" />
-        </div>
+        </button>
       </div>
 
-      <div class="reporters">
+      <div class="container__reporters">
         <p><span id="yearReporter">--</span>years</p>
         <p><span id="monthReporter">--</span>months</p>
         <p><span id="dayReporter">--</span>days</p>
       </div>
     </div>
-    <!-- <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Me</a>.
-    </div> -->
-
     <script src="script.js"></script>
   </body>
 </html>
