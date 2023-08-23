@@ -44,11 +44,12 @@ I hope to add js functionality in the future, but for now, here's the plain html
 
 _My solution (Desktop):_
 
-![image of desktop solution](image.png)
+
+![image of desktop solution](./readme-images/desktop.png)
 
 _My solution (Mobile)_
 
-![image of mobile solution](image-1.png)
+![image of mobile solution](./readme-images/mobile.png)
 
 ### Links 🔗
 
@@ -62,7 +63,8 @@ _My solution (Mobile)_
 - HTML & CSS
 - JavaScript(_In the future_)
 
-* I use my own custom svg for the button, since the one provided does not work 😢
+
+**I use my own custom svg for the button, since the one provided does not work 😢
 
 ### What I learned 🧠
 
