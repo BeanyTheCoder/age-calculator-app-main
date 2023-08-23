@@ -1,4 +1,4 @@
-# Frontend Mentor - Age calculator app solution 🚀
+# Frontend Mentor - Age calculator app solution 👴
 
 ![preview](design/desktop-preview.jpg)
 
@@ -52,7 +52,8 @@ _My solution (Mobile)_
 
 ### Links 🔗
 
-- Solution repo on github [here](https://github.com/BeanyTheCoder/age-calculator-app-main)
+- Solution repo on Github: [here](https://github.com/BeanyTheCoder/age-calculator-app-main)
+- Solution link on Front End Mentor: [here](https://www.frontendmentor.io/solutions/age-calculator-app-S6kuvEr2m_)
 
 ## My process 🏗️
 
@@ -61,19 +62,17 @@ _My solution (Mobile)_
 - HTML & CSS
 - JavaScript(_In the future_)
 
-(By the way, I use the weird, blank purple svg for button, cos' the one provided was not working for me at the time)
+* I use my own custom svg for the button, since the one provided does not work 😢
 
 ### What I learned 🧠
 
 Absolutely nothing! _yet..._
 
-Indeed, when I finally implement some functionality using js, i will try to post here everything I learned from such experience, but for now, enjoy
-
-_blank page_
+Indeed, when I finally implement some functionality using js, i will try to post here everything I learned from such experience, but for now, enjoy a _blank page_
 
 ### Continued development 🚀
 
-As mentioned previously, I plan to implement _actual_ functionality in this site, but for now, it's completely static
+As mentioned previously, I plan to implement _actual_ functionality in this site, but for now, it's completely static.
 
 ## Contact 📧
 
