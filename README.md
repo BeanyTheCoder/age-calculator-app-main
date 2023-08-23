@@ -4,7 +4,7 @@
 
 ## Welcome 👋
 
-This is a solution to the [Age calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Age calculator challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents 📑
 
@@ -16,8 +16,6 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
   - [Built with 🛠️](#built-with-🛠️)
   - [What I learned 🧠](#what-i-learned-🧠)
   - [Continued development 🚀](#continued-development-🚀)
-  - [Useful resources 📚](#useful-resources-📚)
-- [Acknowledgments 🙏](#acknowledgments-🙏)
 - [Contact 📧](#contact-📧)
 - [Author 👤](#author-👤)
 
@@ -62,7 +60,6 @@ _My solution (Mobile)_
 
 - HTML & CSS
 - JavaScript(_In the future_)
-
 
 **I use my own custom svg for the button, since the one provided does not work 😢
 
